@@ -1,0 +1,10 @@
+option domain-name     "{{domain}}";
+option domain-name-servers     {{dns_ip}};
+default-lease-time 600;
+max-lease-time 7200;
+authoritative;
+subnet {{network}} netmask {{netmask}} {
+    range dynamic-bootp {{min_range}} {{max_range}};
+    option broadcast-address {{broadcast}};
+    option routers {{gateway}};
+}

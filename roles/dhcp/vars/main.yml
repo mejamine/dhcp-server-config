@@ -1,0 +1,8 @@
+dns_ip: 192.168.140.10
+domain: fedora.local
+network: 192.168.140.0
+netmask: 255.255.255.0
+min_range: 192.168.140.20
+max_range: 192.168.140.253
+broadcast: 192.168.140.254
+gateway: 192.168.140.1
