@@ -1,6 +1,6 @@
 - name: Allow DHCP service through the firewall
   ansible.posix.firewalld:
-    service: dhcpd
+    service: dhcp
     state: enabled
 
 - name: runtime
