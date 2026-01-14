@@ -1,4 +1,4 @@
-domain: fedora.local
+domain: fedora.test
 dns_server_ip: 192.168.140.10
 subnet: 192.168.140.0 
 netmask: 255.255.255.0
